@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="contact">
+  <h2>Contact NextWeb Studio</h2>
+  <form method="POST">
+    <label>Name:</label>
+    <input type="text" name="name" required>
+    <label>Email:</label>
+    <input type="email" name="email" required>
+    <label>Message:</label>
+    <textarea name="message" rows="5" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+{% endblock %}
